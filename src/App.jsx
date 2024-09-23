@@ -6,6 +6,7 @@ import Game from "./Game";
 import Library from "./Library";
 import Languages from "./Languages";
 import Withus from "./Withus";
+import Qa from "./Qa";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Library />
       <Languages />
       <Withus />
+      <Qa />
     </>
   );
 };

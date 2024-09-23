@@ -1,0 +1,45 @@
+.qa {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65.47px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.28px;
+}
+
+@media only screen and (max-width: 600px) {
+  .qa {
+    gap: 10px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 32.74px;
+  }
+  .question {
+    font-size: 14px;
+    line-height: 19.1px;
+  }
+}
