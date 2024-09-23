@@ -51,9 +51,6 @@ const Navbar = () => {
           <a href="#download" onClick={handleMenuItemClick}>
             Скачать приложение
           </a>
-          <a href="#qa" onClick={handleMenuItemClick}>
-            Вопросы
-          </a>
         </div>
         <div
           className={`${icon === "menu" ? "menu" : "menuClose"}`}

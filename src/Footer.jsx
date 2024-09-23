@@ -15,7 +15,6 @@ const Footer = () => {
               <a href="#home">Главная</a>
               <a href="#about">О приложении</a>
               <a href="#download">Скачать приложение</a>
-              <a href="#qa">Вопросы</a>
             </div>
           </div>
           <div className={styles.social}>

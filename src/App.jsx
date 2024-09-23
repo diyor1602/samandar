@@ -6,7 +6,6 @@ import Game from "./Game";
 import Library from "./Library";
 import Languages from "./Languages";
 import Withus from "./Withus";
-import Qa from "./Qa";
 import Footer from "./Footer";
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
       <Library />
       <Languages />
       <Withus />
-      <Qa />
       <Footer />
     </>
   );
