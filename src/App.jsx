@@ -7,6 +7,7 @@ import Library from "./Library";
 import Languages from "./Languages";
 import Withus from "./Withus";
 import Qa from "./Qa";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Languages />
       <Withus />
       <Qa />
+      <Footer />
     </>
   );
 };

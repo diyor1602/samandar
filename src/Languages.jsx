@@ -17,7 +17,7 @@ import list4 from "/list4.png";
 
 const Languages = () => {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className={styles.languages}>
         <div className={styles.languagesNavbar}>
           <div className={styles.languageNavTitle}>

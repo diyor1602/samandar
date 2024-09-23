@@ -2,7 +2,7 @@ import styles from "./Qa.module.css";
 
 const Qa = () => {
   return (
-    <div className="container">
+    <div className="container" id="qa">
       <div className={styles.qa}>
         <div className={styles.title}>Вопросы и ответы</div>
         <div className={styles.questions}>

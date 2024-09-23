@@ -42,10 +42,18 @@ const Navbar = () => {
 
       <nav className="navbar">
         <div className={`menuList ${menuOpen ? "open" : ""}`}>
-          <div onClick={handleMenuItemClick}>Главная</div>
-          <div onClick={handleMenuItemClick}>О приложении</div>
-          <div onClick={handleMenuItemClick}>Скачать приложение</div>
-          <div onClick={handleMenuItemClick}>Вопросы</div>
+          <a href="#home" onClick={handleMenuItemClick}>
+            Главная
+          </a>
+          <a href="#about" onClick={handleMenuItemClick}>
+            О приложении
+          </a>
+          <a href="#download" onClick={handleMenuItemClick}>
+            Скачать приложение
+          </a>
+          <a href="#qa" onClick={handleMenuItemClick}>
+            Вопросы
+          </a>
         </div>
         <div
           className={`${icon === "menu" ? "menu" : "menuClose"}`}

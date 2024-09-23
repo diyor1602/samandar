@@ -6,7 +6,7 @@ import phone2 from "/phone2.jpg";
 
 const Withus = () => {
   return (
-    <div className="container">
+    <div className="container" id="download">
       <div className={styles.showcase}>
         <div className={styles.texts}>
           <div className={styles.title}>Изучайте языки с нами! </div>

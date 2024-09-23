@@ -6,7 +6,7 @@ import phone2 from "/phone2.jpg";
 
 const Showcase = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className={styles.showcase}>
         <div className={styles.texts}>
           <div className={styles.title}>Приложение для изучения языков</div>

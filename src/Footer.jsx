@@ -1,0 +1,63 @@
+import styles from "./Footer.module.css";
+import vk from "/vk.png";
+import facebook from "/facebook.png";
+import instagram from "/instagram.png";
+import tiktok from "/tiktok.png";
+import googlePlay from "/googlePlay.png";
+import appStore from "/appStore.png";
+
+const Footer = () => {
+  return (
+    <div className={styles.footer} id="footer">
+      <div className="container">
+        <div className={styles.wrapper}>
+          <div className={styles.menu}>
+            <div className={styles.title}>Разделы</div>
+            <div className={styles.menuItems}>
+              <a href="#home">Главная</a>
+              <a href="#about">О приложении</a>
+              <a href="#download">Скачать приложение</a>
+              <a href="#qa">Вопросы</a>
+            </div>
+          </div>
+          <div className={styles.social}>
+            <div className={styles.title}>Мы в соцсетях</div>
+            <div className={styles.socialItems}>
+              <a className={styles.socialItem}>
+                <img src={vk} alt="Вконтакте" />
+                Вконтакте
+              </a>
+              <a
+                href="https://www.instagram.com/lengua.8?igsh=MWg4czExdTdrbnQ5eQ=="
+                target="_blank"
+                className={styles.socialItem}
+              >
+                <img src={instagram} alt="Instagram" />
+                Instagram
+              </a>
+              <a className={styles.socialItem}>
+                <img src={facebook} alt="Facebook" />
+                Facebook
+              </a>
+              <a
+                href="https://www.tiktok.com/@lengua__8?_t=8prBQ6wlUTW&_r=1"
+                target="_blank"
+                className={styles.socialItem}
+              >
+                <img src={tiktok} alt="Tiktok" />
+                Tiktok
+              </a>
+            </div>
+          </div>
+          <div className={styles.download}>
+            <div className={styles.title}>Скачать приложение</div>
+            <img src={googlePlay} alt="google play" />
+            <img src={appStore} alt="app store" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
