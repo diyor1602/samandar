@@ -31,6 +31,7 @@
 .languageImages img {
   width: 63px;
   height: 63px;
+  max-width: 100%;
 }
 
 .langDescList {
@@ -94,5 +95,12 @@
   }
   .langDescList {
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 828px) and (min-width: 660px) {
+  .languageImages img {
+    width: 60px;
+    height: 60px;
   }
 }
