@@ -4,15 +4,18 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  margin-bottom: 50px;
 }
 
-.languagesNavbar {
+.languagesNavbar,
+.langugesDescription {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.languageNavTitle {
+.languageNavTitle,
+.langugesDescription {
   font-weight: 700;
   font-size: 48px;
   line-height: 65.47px;
@@ -30,12 +33,65 @@
   height: 63px;
 }
 
+.langDescList {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.langDescItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.langDescTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.74px;
+}
+
+.langDescText {
+  font-size: 18px;
+  line-height: 21.82px;
+}
+
+.langDescItem img {
+  width: 96px;
+  height: 111px;
+  object-fit: contain;
+}
+
 @media only screen and (max-width: 660px) {
   .languages {
     gap: 10px;
   }
-  .languageNavTitle {
+  .languageNavTitle,
+  .langugesDescription,
+  .langDescTitle {
     font-size: 24px;
     line-height: 32.74px;
+  }
+  .langugesDescription {
+    margin-top: 26px;
+  }
+  .langDescItem {
+    align-items: center;
+  }
+  .langDescItem img {
+    width: 88px;
+    height: 137px;
+    order: 0;
+  }
+  .langDescTitle {
+    order: 1;
+  }
+  .langDescText {
+    font-size: 16px;
+    line-height: 21.82px;
+    order: 2;
+  }
+  .langDescList {
+    flex-direction: column;
   }
 }
