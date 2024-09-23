@@ -4,6 +4,7 @@ import Showcase from "./Showcase";
 import Course from "./Course";
 import Game from "./Game";
 import Library from "./Library";
+import Languages from "./Languages";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Course />
       <Game />
       <Library />
+      <Languages />
     </>
   );
 };
