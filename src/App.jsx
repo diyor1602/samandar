@@ -5,6 +5,7 @@ import Course from "./Course";
 import Game from "./Game";
 import Library from "./Library";
 import Languages from "./Languages";
+import Withus from "./Withus";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Game />
       <Library />
       <Languages />
+      <Withus />
     </>
   );
 };
