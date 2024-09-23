@@ -1,6 +1,4 @@
 import styles from "./Footer.module.css";
-import vk from "/vk.png";
-import facebook from "/facebook.png";
 import instagram from "/instagram.png";
 import tiktok from "/tiktok.png";
 import googlePlay from "/googlePlay.png";
@@ -23,10 +21,6 @@ const Footer = () => {
           <div className={styles.social}>
             <div className={styles.title}>Мы в соцсетях</div>
             <div className={styles.socialItems}>
-              <a className={styles.socialItem}>
-                <img src={vk} alt="Вконтакте" />
-                Вконтакте
-              </a>
               <a
                 href="https://www.instagram.com/lengua.8?igsh=MWg4czExdTdrbnQ5eQ=="
                 target="_blank"
@@ -34,10 +28,6 @@ const Footer = () => {
               >
                 <img src={instagram} alt="Instagram" />
                 Instagram
-              </a>
-              <a className={styles.socialItem}>
-                <img src={facebook} alt="Facebook" />
-                Facebook
               </a>
               <a
                 href="https://www.tiktok.com/@lengua__8?_t=8prBQ6wlUTW&_r=1"

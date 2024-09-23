@@ -23,8 +23,8 @@ const Withus = () => {
             </button>
           </div>
         </div>
+        <div className={styles.imageTitle}>Изучайте языки с нами!</div>
         <div className={styles.showcaseImage}>
-          <div className={styles.imageTitle}>Изучайте языки с нами!</div>
           <div className={styles.phoneBorder}>
             <img src={phone1} alt="Phone 1" />
             <img src={phone2} alt="Phone 2" />
