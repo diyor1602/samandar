@@ -10,10 +10,10 @@ const Withus = () => {
       <div className={styles.showcase}>
         <div className={styles.texts}>
           <div className={styles.title}>Изучайте языки с нами! </div>
-          <div className={styles.subText}>
+          {/* <div className={styles.subText}>
             Убери запишитесь на бесплатные онлайн языковые курсы потому что у
             нас не школа мы приложение все построено на ии
-          </div>
+          </div> */}
           <div className={styles.buttons}>
             <button className={styles.button}>
               <img src={appStore} alt="App Store" />
