@@ -40,8 +40,12 @@ const Footer = () => {
           </div>
           <div className={styles.download}>
             <div className={styles.title}>Скачать приложение</div>
-            <img src={googlePlay} alt="google play" />
+            {/* <img src={googlePlay} alt="google play" /> */}
             <img src={appStore} alt="app store" />
+            <div>Техническая поддержка:</div>
+            <a href="mailto: lengua8.help@gmail.com" style={{ color: "#fff" }}>
+              lengua8.help@gmail.com
+            </a>
           </div>
         </div>
       </div>

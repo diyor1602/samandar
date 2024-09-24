@@ -18,9 +18,9 @@ const Withus = () => {
             <button className={styles.button}>
               <img src={appStore} alt="App Store" />
             </button>
-            <button className={styles.button}>
+            {/* <button className={styles.button}>
               <img src={googlePlay} alt="Google Play" />
-            </button>
+            </button> */}
           </div>
         </div>
         <div className={styles.imageTitle}>Изучайте языки с нами!</div>
