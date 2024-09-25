@@ -39,12 +39,18 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.download}>
-            <div className={styles.title}>Скачать приложение</div>
+            {/* <div className={styles.title}>Скачать приложение</div> */}
             {/* <img src={googlePlay} alt="google play" /> */}
-            <img src={appStore} alt="app store" />
+            {/* <img src={appStore} alt="app store" /> */}
             <div>Техническая поддержка:</div>
             <a href="mailto: lengua8.help@gmail.com" style={{ color: "#fff" }}>
               lengua8.help@gmail.com
+            </a>
+            <a
+              href="https://ramazanovmarat.github.io/lengua8.github.io/"
+              style={{ color: "#fff" }}
+            >
+              Политика конфиденциальности
             </a>
           </div>
         </div>
