@@ -24,7 +24,7 @@ const Showcase = () => {
           </div>
           <div className={styles.buttons}>
             <button className={styles.button}>
-              <img src={appStore} alt="App Store" />
+              <img src={appStore} alt="App Store" width="200px" />
             </button>
             {/* <button className={styles.button}>
               <img src={googlePlay} alt="Google Play" />
