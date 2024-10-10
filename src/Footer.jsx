@@ -1,8 +1,6 @@
 import styles from "./Footer.module.css";
 import instagram from "/instagram.png";
 import tiktok from "/tiktok.png";
-import googlePlay from "/googlePlay.png";
-import appStore from "/appStore.png";
 
 const Footer = () => {
   return (
@@ -39,9 +37,6 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.download}>
-            {/* <div className={styles.title}>Скачать приложение</div> */}
-            {/* <img src={googlePlay} alt="google play" /> */}
-            {/* <img src={appStore} alt="app store" /> */}
             <div>Техническая поддержка:</div>
             <a href="mailto: lengua8.help@gmail.com" style={{ color: "#fff" }}>
               lengua8.help@gmail.com
@@ -51,6 +46,9 @@ const Footer = () => {
               style={{ color: "#fff" }}
             >
               Политика конфиденциальности
+            </a>
+            <a href="/privacy-policy.html" style={{ color: "#fff" }}>
+              Privacy and Policy
             </a>
           </div>
         </div>
