@@ -41,12 +41,6 @@ const Footer = () => {
             <a href="mailto: lengua8.help@gmail.com" style={{ color: "#fff" }}>
               lengua8.help@gmail.com
             </a>
-            <a
-              href="https://ramazanovmarat.github.io/lengua8.github.io/"
-              style={{ color: "#fff" }}
-            >
-              Политика конфиденциальности
-            </a>
             <a href="/privacy-policy.html" style={{ color: "#fff" }}>
               Privacy and Policy
             </a>
